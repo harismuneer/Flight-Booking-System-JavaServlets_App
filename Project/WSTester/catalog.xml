@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8084/TurkishAirlines/PriceAndSeats?wsdl" uri="xml-resources/web-service-references/PriceAndSeats/wsdl/localhost_8084/TurkishAirlines/PriceAndSeats.wsdl"/>
+    <system systemId="http://localhost:8084/TurkishAirlines/PriceAndSeats?xsd=1" uri="xml-resources/web-service-references/PriceAndSeats/wsdl/localhost_8084/TurkishAirlines/PriceAndSeats.xsd_1.xsd"/>
+</catalog>
