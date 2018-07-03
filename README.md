@@ -1,6 +1,6 @@
 # Flight Booking System for Airlines (Java Web Application)
 
-A fully responsive web-based Flight Booking System for Turkish Airlines based on the Model View Controller (MVC) Architecture made using Java Servlets, Java Server Pages (JSPs). Moreover authentication and authorization for users is implemented using Tomcat Roles. The web-application is also secured against SQL Injection and Cross-Site Scripting attacks.
+A **fully responsive** web-based Flight Booking System for Turkish Airlines based on the **Model View Controller (MVC) Architecture** made using **Java Servlets**, **Java Server Pages (JSPs)**. Moreover authentication and authorization for users is implemented using Tomcat Roles. The web-application is also secured against **SQL Injection** and **Cross-Site Scripting** attacks.
 
 ## Technologies Used
 
