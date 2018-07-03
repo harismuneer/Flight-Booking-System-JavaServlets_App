@@ -65,7 +65,7 @@ the pay button consider the transaction done and mark the seat sold.
 #### Seat Features and Approval
 <p align="middle">
    <img src="../master/Images/features.png" width="300"/>
-   <img src="../master/Images/approve.png" width="500"/>
+   <img src="../master/Images/approve.png" width="500" height="500"/>
 </p>
 
 
@@ -88,8 +88,8 @@ the pay button consider the transaction done and mark the seat sold.
 ```
 
 <p align="middle">
-   <img src="../master/Images/tomcat.png" width="400"/>
-   <img src="../master/Images/tomcat-users.png" width="400"/>
+   <img src="../master/Images/tomcat.png" width="300"/>
+   <img src="../master/Images/tomcat-users-xml.png" width="500"/>
 </p>
 
 Morever, open and read the file. Only the users authenticated in this file are allowed to login and use the Booking System. Use above mentioned credentials to login through the Login Page.
