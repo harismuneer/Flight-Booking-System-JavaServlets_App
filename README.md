@@ -96,3 +96,8 @@ Morever, open and read the file. Only the users authenticated in this file are a
 
 3- Restart NetBeans IDE. Click on File -> Open Project and browse to the downloaded folder named "Project". There will be two projects there "Turkish Airlines" and "WSTester" (which is basically a project to test the Web Services). Select both and open them.
 Both projects will be loaded. Now first run the Turkish Airlines project, then to test the web services run WSTester project. 
+
+
+
+## Contact
+You can get in touch with me on my Linkedin Profile: [Haris Muneer](https://www.linkedin.com/in/harismuneer/)
