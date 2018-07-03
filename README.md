@@ -64,8 +64,8 @@ the pay button consider the transaction done and mark the seat sold.
 
 #### Seat Features and Approval
 <p align="middle">
-   <img src="../master/Images/features.png" width="400"/>
-   <img src="../master/Images/approve.png" width="400"/>
+   <img src="../master/Images/features.png" width="300"/>
+   <img src="../master/Images/approve.png" width="500"/>
 </p>
 
 
