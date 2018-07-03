@@ -1,12 +1,12 @@
 # Flight Booking System for Airlines (Java Web Application)
 
-A fully responsive web-based Flight Booking System for Turkish Airlines based on the Model View Controller (MVC) Architecture made using Java Servlets, Java Server Pages (JSPs). Moreover authentication and authorization for users is implemented using Tomcat Roles. The web-application is secured against SQL Injection and Cross-Site Scripting attacks.
+A fully responsive web-based Flight Booking System for Turkish Airlines based on the Model View Controller (MVC) Architecture made using Java Servlets, Java Server Pages (JSPs). Moreover authentication and authorization for users is implemented using Tomcat Roles. The web-application is also secured against SQL Injection and Cross-Site Scripting attacks.
 
 ## Technologies Used
 
 * **Frontend:** HTML, CSS, JavaScript, Jquery, Bootstrap, Java Server Pages (JSPs), AJAX (for a Flight Search Widget)
 * **Backend:** Java Servlets, Java Models
-* **Webservices:** SOAP Web Services
+* **Webservices:** SOAP Web Services (to get price and number of seats)
 * **Security Features:** SQL Injection, Cross-Site Scripting (XSS), Tomcat Roles
 
 
@@ -43,13 +43,41 @@ be shown to the customer.
 the pay button consider the transaction done and mark the seat sold. 
 12.   Once the seat is sold, send out an email to the customer with the flight itinerary.
 
+## Interface
+
+#### Home Pages
+<p align="middle">
+   <img src="../master/Images/main.png" width="400"/>
+   <img src="../master/Images/main2.png" width="400"/>
+</p>
+
+#### Login Page and Book Flight
+<p align="middle">
+   <img src="../master/Images/login.png" width="400"/>
+   <img src="../master/Images/book.png" width="400"/>
+</p>
+
+#### Current Bookings and Itinerary
+<p align="middle">
+   <img src="../master/Images/current.png" width="400"/>
+   <img src="../master/Images/itenary.png" width="400"/>
+</p>
+
+### Seat Features and Approval
+<p align="middle">
+   <img src="../master/Images/features.png" width="400"/>
+   <img src="../master/Images/approve.png" width="400"/>
+</p>
+
+
+
 ## How to Run
 
 1- Install these:
  * [Java SE Development Kit 8 (JDK 8)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
  * After installing JDK 8, install [NetBeans IDE](https://netbeans.org/downloads/) with **all** the features including **Tomcat Apache Server.** 
 
-2- Copy "Tomcat-users.xml"
+2- Open Netbeans IDE and go to Services > Servers > Apache Tomcat. Right click "Apache Tomcat" and select Properties. Copy the Catalina Base Path and open it. Copy the downloaded "tomcat-users.xml" to the "conf" directory under the opened Catalina Base Path and overwrite the "tomcat-users.xml" file.
 
-2- Open NetBeans IDE. Click on File -> Open Project and browse to the downloaded folder named "Project". There will be two projects there "Turkish Airlines" and "WSTester" which is basically a project to test the Web Services. Select both and open them.
+2- Restart NetBeans IDE. Click on File -> Open Project and browse to the downloaded folder named "Project". There will be two projects there "Turkish Airlines" and "WSTester" which is basically a project to test the Web Services. Select both and open them.
 Both projects will be loaded. Now first run the Turkish Airlines project, then to test the web services run WSTester project. 
