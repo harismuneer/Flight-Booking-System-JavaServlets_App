@@ -78,7 +78,7 @@ the pay button consider the transaction done and mark the seat sold.
 2- Open Netbeans IDE and go to Services > Servers > Apache Tomcat. Right click "Apache Tomcat" and select Properties. Copy the **Catalina Base Path** and open it. Copy the downloaded "tomcat-users.xml" to the "conf" directory under the opened Catalina Base Path and overwrite the "**tomcat-users.xml**" file. 
 
 <p align="middle">
-   <img src="../master/Images/tomact.png"/>
+   <img src="../master/Images/tomcat.png"/>
 </p>
 
 Morever, open and read the file. Only the users authenticated in this file are allowed to login and use the Booking System. Currently there are three users with credentials: 
