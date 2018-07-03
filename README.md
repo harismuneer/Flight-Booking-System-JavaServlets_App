@@ -75,19 +75,24 @@ the pay button consider the transaction done and mark the seat sold.
  * [Java SE Development Kit 8 (JDK 8)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
  * After installing JDK 8, install [NetBeans IDE](https://netbeans.org/downloads/) with **all** the features including **Tomcat Apache Server.** 
 
-2- Open Netbeans IDE and go to Services > Servers > Apache Tomcat. Right click "Apache Tomcat" and select Properties. Copy the **Catalina Base Path** and open it. Copy the downloaded "tomcat-users.xml" to the "conf" directory under the opened Catalina Base Path and overwrite the "**tomcat-users.xml**" file. 
+2- Open Netbeans IDE and go to Services > Servers > Apache Tomcat. Right click "Apache Tomcat" and select Properties. Copy the **Catalina Base Path** and open it. Open the "conf" folder and then the "**tomcat-users.xml**" file there. Copy the following lines and paste them in the tomcat-users.xml file before closing tag </tomcat-users>
+
+```
+<role rolename="Manager"/>
+<role rolename="Admin"/>
+<role rolename="Customer"/>
+
+<user username="haris@admin.com" password="a" roles="Admin"/>
+<user username="haris@manager.com" password="m" roles="Manager"/>
+<user username="shariq@customer.com" password="c" roles="Customer"/>
+```
 
 <p align="middle">
-   <img src="../master/Images/tomact.png"/>
+   <img src="../master/Images/tomcat.png" width = "400/>
+   <img src="../master/Images/tomcat-users.png" width = "400/>                                                   
 </p>
 
-Morever, open and read the file. Only the users authenticated in this file are allowed to login and use the Booking System. Currently there are three users with credentials: 
-#### |  Email               |  Password  |
-#### | shariq@customer.com  | c  |
-#### | haris@manager.com    | m  |
-#### | haris@admin.com      | a  |
-
-Use above mentioned credentials to login through the Login Page.
+Morever, open and read the file. Only the users authenticated in this file are allowed to login and use the Booking System. Use above mentioned credentials to login through the Login Page.
 
 3- Restart NetBeans IDE. Click on File -> Open Project and browse to the downloaded folder named "Project". There will be two projects there "Turkish Airlines" and "WSTester" (which is basically a project to test the Web Services). Select both and open them.
 Both projects will be loaded. Now first run the Turkish Airlines project, then to test the web services run WSTester project. 
