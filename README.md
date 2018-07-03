@@ -64,8 +64,8 @@ the pay button consider the transaction done and mark the seat sold.
 
 #### Seat Features and Approval
 <p align="middle">
-   <img src="../master/Images/features.png" width="400"/>
-   <img src="../master/Images/approve.png" width="400"/>
+   <img src="../master/Images/features.png" width="300"/>
+   <img src="../master/Images/approve.png" width="500" height="500"/>
 </p>
 
 
@@ -75,7 +75,11 @@ the pay button consider the transaction done and mark the seat sold.
  * [Java SE Development Kit 8 (JDK 8)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
  * After installing JDK 8, install [NetBeans IDE](https://netbeans.org/downloads/) with **all** the features including **Tomcat Apache Server.** 
 
+<<<<<<< HEAD
 2- Open Netbeans IDE and go to Services > Servers > Apache Tomcat. Right click "Apache Tomcat" and select Properties. Copy the **Catalina Base Path** and open it. Open the "conf" folder and then the "**tomcat-users.xml**" file there. Copy the following lines and paste them in the tomcat-users.xml file before closing tag </tomcat-users>
+=======
+2- Open Netbeans IDE and go to Services > Servers > Apache Tomcat. Right click "Apache Tomcat" and select Properties. Copy the **Catalina Base Path** and open it. Open the "Conf" folder and then the "**tomcat-users.xml**. Copy the following lines and paste them before the closing </tomcat-users> tag.
+>>>>>>> ad06499e3118e9f7d3ad8d64aff32ac965e99a33
 
 ```
 <role rolename="Manager"/>
@@ -88,8 +92,13 @@ the pay button consider the transaction done and mark the seat sold.
 ```
 
 <p align="middle">
+<<<<<<< HEAD
    <img src="../master/Images/tomcat.png" width = "400/>
    <img src="../master/Images/tomcat-users.png" width = "400/>                                                   
+=======
+   <img src="../master/Images/tomcat.png" width="300"/>
+   <img src="../master/Images/tomcat-users-xml.png" width="500"/>
+>>>>>>> ad06499e3118e9f7d3ad8d64aff32ac965e99a33
 </p>
 
 Morever, open and read the file. Only the users authenticated in this file are allowed to login and use the Booking System. Use above mentioned credentials to login through the Login Page.
