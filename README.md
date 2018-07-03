@@ -1,7 +1,14 @@
 # Flight Booking System for Airlines (Java Web Application)
 
-A web-based Flight Booking System for Turkish Airlines based on the Model View Controller (MVC) Architecture made using Java Servlets, Java Server Pages (JSPs). 
-This is for just one airline who wants to sell seats to their customers via internet. 
+A fully responsive web-based Flight Booking System for Turkish Airlines based on the Model View Controller (MVC) Architecture made using Java Servlets, Java Server Pages (JSPs). Moreover authentication and authorization for users is implemented using Tomcat Roles. The web-application is secured against SQL Injection and Cross-Site Scripting attacks.
+
+## Technologies Used
+
+* **Frontend:** HTML, CSS, JavaScript, Jquery, Bootstrap, Java Server Pages (JSPs), AJAX (for a Flight Search Widget)
+* **Backend:** Java Servlets, Java Models
+* **Webservices:** SOAP Web Services
+* **Security Features:** SQL Injection, Cross-Site Scripting (XSS), Tomcat Roles
+
 
 ## Roles
 Following roles are implemented:
@@ -10,6 +17,8 @@ Following roles are implemented:
 * Customer
 
 ## Workflow (Functionalities)
+
+This is for just one airline who wants to sell seats to their customers via internet. 
 
 Following are the steps of work flow:
 1.  Airline Admin will set the prices of the seats. There should be three types of seats:
@@ -38,7 +47,9 @@ the pay button consider the transaction done and mark the seat sold.
 
 1- Install these:
  * [Java SE Development Kit 8 (JDK 8)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
- * After installing JDK 8, install [NetBeans IDE](https://netbeans.org/downloads/) with **all** the features including Tomcat Apache Server. 
+ * After installing JDK 8, install [NetBeans IDE](https://netbeans.org/downloads/) with **all** the features including **Tomcat Apache Server.** 
+
+2- Copy "Tomcat-users.xml"
 
 2- Open NetBeans IDE. Click on File -> Open Project and browse to the downloaded folder named "Project". There will be two projects there "Turkish Airlines" and "WSTester" which is basically a project to test the Web Services. Select both and open them.
 Both projects will be loaded. Now first run the Turkish Airlines project, then to test the web services run WSTester project. 
