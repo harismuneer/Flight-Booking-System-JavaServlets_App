@@ -1,4 +1,4 @@
-# ✈️ Flight Booking System for Airlines (Java Web Application)
+# Flight Booking System for Airlines (Java Web Application) ✈️ 
 
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](#)
