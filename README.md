@@ -12,7 +12,7 @@ A **fully responsive** web-based Flight Booking System for Turkish Airlines base
 ## Technologies Used
 
 * **Frontend:** HTML, CSS, JavaScript, Jquery, Bootstrap, Java Server Pages (JSPs), AJAX (for a Flight Search Widget)
-* **Backend:** Java Servlets, Java Models
+* **Backend:** Java Servlets, Java Models, Microsoft Access (Database)
 * **Webservices:** SOAP Web Services (to get price and number of seats)
 * **Security Features:** SQL Injection, Cross-Site Scripting (XSS), Tomcat Roles
 
