@@ -114,16 +114,17 @@ You can also follow my GitHub Profile to stay updated about my latest projects: 
 If you liked the repo then kindly support it by giving it a star ⭐ and share in your circles so more people can benefit from the effort.
 
 ## Contributions Welcome
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](#)
-
 [![GitHub Issues](https://img.shields.io/github/issues/harismuneer/Flight-Booking-System-JavaServlets_App.svg?style=flat&label=Issues&maxAge=2592000)](https://www.github.com/harismuneer/Flight-Booking-System-JavaServlets_App/issues)
 
 If you find any bugs, have suggestions, or face issues:
 
 - Open an Issue in the Issues Tab to discuss them.
 - Submit a Pull Request to propose fixes or improvements.
+- Review Pull Requests from other contributors to help maintain the project's quality and progress.
 
-The community is encouraged to collaborate and support one another in resolving challenges. With the help of modern AI tools like ChatGPT, debugging and fixing issues has never been easier. Let’s make meaningful contributions and build something amazing together! 🚀
+This project thrives on community collaboration! Members are encouraged to take the initiative, support one another, and actively engage in all aspects of the project. Whether it’s debugging, fixing issues, or brainstorming new ideas, your contributions are what keep this project moving forward.
+
+With modern AI tools like ChatGPT, solving challenges and contributing effectively is easier than ever. Let’s work together to make this project the best it can be! 🚀
 
 ## License
 [![MIT](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=style&label=License&maxAge=2592000)](../master/LICENSE)
